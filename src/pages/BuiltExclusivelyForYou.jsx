@@ -5,7 +5,7 @@ import { faCommentDots } from '@fortawesome/free-solid-svg-icons';
 const FeedbackCard = ({ title }) => {
   return (
     <div className='bg-white rounded-lg shadow-md p-6 text-center'>
-      <FontAwesomeIcon icon={faCommentDots} size='2x' className='text-custom mb-4' />
+      <FontAwesomeIcon icon={faCommentDots} size='2x' className='text-custom mb-4 text-customLightBlue' />
       <h2 className='text-xl font-semibold mb-2'>{title}</h2>
       <p className='text-gray-600'>
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

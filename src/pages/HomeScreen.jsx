@@ -20,7 +20,7 @@ const HomeScreen = () => {
             <h1 className='text-7xl font-bold font-sans mb-10'>Create Stunning Web Experiences</h1>
             <p className='mb-6 text-lg font-sans text-gray-400'>Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
             <div className='space-x-4'>
-              <button className=' text-white px-4 py-3 rounded-md hover:bg-customBlue mt-8 bg-customBlue'>Request Demo<FontAwesomeIcon icon={faArrowRight} className='ml-2' /></button>
+              <button className=' text-white px-4 py-3 rounded-md hover:bg-customBlue mt-8 bg-customLightBlue'>Request Demo<FontAwesomeIcon icon={faArrowRight} className='ml-2' /></button>
               <button className='bg-gray-700 text-white px-4 py-3 rounded-md hover:bg-gray-500'>Explore Product</button>
             </div>
           </div>

@@ -56,13 +56,13 @@ const PricingCards = () => {
         <div className='flex justify-center mb-8'>
           <button
             onClick={() => setYearly(false)}
-            className={`px-4 py-2 mr-2 rounded-md ${!yearly ? 'bg-customBlue text-white' : 'bg-gray-200 text-gray-700'}`}
+            className={`px-4 py-2 mr-2 rounded-md ${!yearly ? 'bg-customLightBlue text-white' : 'bg-gray-200 text-gray-700'}`}
           >
             Pay Monthly
           </button>
           <button
             onClick={() => setYearly(true)}
-            className={`px-4 py-2 ml-2 rounded-md ${yearly ? 'bg-customBlue text-white' : 'bg-gray-200 text-gray-700'}`}
+            className={`px-4 py-2 ml-2 rounded-md ${yearly ? 'bg-customLightBlue text-white' : 'bg-gray-200 text-gray-700'}`}
           >
             Pay Yearly (-20%)
           </button>
@@ -71,7 +71,7 @@ const PricingCards = () => {
           {plans.map((plan, index) => (
             <div key={index} className={`relative bg-white shadow-md rounded-lg p-6 ${plan.popular ? 'border-2 border-blue-500' : ''}`}>
               {plan.popular && (
-                <span className='text-white bg-customBlue py-1 px-3 rounded-full absolute top-4 right-4'>
+                <span className='text-white bg-customLightBlue py-1 px-3 rounded-full absolute top-4 right-4'>
                   Most Popular
                 </span>
               )}
@@ -83,7 +83,7 @@ const PricingCards = () => {
                   <li key={i} className='mb-2'>- {feature}</li>
                 ))}
               </ul>
-              <button className='bg-customBlue text-white px-4 py-2 rounded-md hover:bg-customBlue'>
+              <button className='bg-customLightBlue text-white px-4 py-2 rounded-md hover:bg-customBlue'>
                 {plan.buttonText}
               </button>
             </div>

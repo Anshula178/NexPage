@@ -27,7 +27,7 @@ const Card = () => {
  </div>
  <div className='bg-white rounded-lg  p-6 text-center'>
        
- <FontAwesomeIcon icon={faFile}  className='text-white  mb-4 bg-blue-700 px-4 py-4 rounded-full'/> 
+ <FontAwesomeIcon icon={faFile}  className='text-white  mb-4 bg-customLightBlue px-4 py-4 rounded-full'/> 
  
 
 <h2 className='text-2xl font-semibold mb-2'>Lorem Ipsum </h2>
@@ -37,7 +37,7 @@ const Card = () => {
 </div>
 <div className='bg-white rounded-lg  p-6 text-center'>
        
-       <FontAwesomeIcon icon={faFileArrowUp}  className='text-white  mb-4 blue px-4 py-4 rounded-full'/> 
+       <FontAwesomeIcon icon={faFileArrowUp}  className='text-white  mb-4 bg-customLightBlue px-4 py-4 rounded-full'/> 
        
      
       <h2 className='text-2xl font-semibold mb-2'>Lorem Ipsum </h2>
@@ -47,7 +47,7 @@ const Card = () => {
     </div>
     <div className='bg-white rounded-lg  p-6 text-center'>
        
-       <FontAwesomeIcon icon={faFileArchive}  className='text-white  mb-4 blue px-4 py-4 rounded-full'/> 
+       <FontAwesomeIcon icon={faFileArchive}  className='text-white  mb-4 bg-customLightBlue px-4 py-4 rounded-full'/> 
        
      
       <h2 className='text-2xl font-semibold mb-2'>Lorem Ipsum </h2>
@@ -57,7 +57,7 @@ const Card = () => {
     </div>
     <div className='bg-white rounded-lg  p-6 text-center'>
        
-       <FontAwesomeIcon icon={faFileCircleCheck}  className='text-white  mb-4 blue px-4 py-4 rounded-full'/> 
+       <FontAwesomeIcon icon={faFileCircleCheck}  className='text-white  mb-4 bg-customLightBlue px-4 py-4 rounded-full'/> 
        
      
       <h2 className='text-2xl font-semibold mb-2'>Lorem Ipsum </h2>
